@@ -1,0 +1,498 @@
+@font-face {
+	font-family: "opens";
+	src:url('fonts/open_sans/OpenSans-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'opens', arial;
+    background: #000 url('img/5-1.jpg');
+    background-size: cover;
+    font-family: 'opens', arial;
+    background-color:#000;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;*/
+    
+    
+    
+    background-image: url(img/5-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    background-attachment: fixed;
+    height: 100vh;
+    font-size: 10px;
+    
+    
+}
+
+/*body::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(img/5-1.jpg);
+   /* background-color: #000500;*/
+   /* background-color: rgba(95, 106, 106 , 1);*/
+
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    background-attachment: fixed;
+    }*/
+   
+   .img-carousel-cust{    
+    
+    
+}
+
+
+.admin-obra-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-obra-contenido div ul {
+   /* list-style-type: none;*/
+}
+.carousel {
+   
+   max-width: 1366px;
+   max-height: 505px;
+    
+}
+
+.carousel-item img{
+  
+    max-height: 505px;
+   /* padding: 5px;*/
+	/*opacity: 0.9;*/
+   /* border: 1px solid #484848;*/
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    /*max-width: 1300px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*Si no se usa esta propiedad, no se respetara el ancho del menu y se pondra a un lado*/
+    /*position: relative;*/
+    /*margin-top: 20px;*/
+}
+
+header {
+    width: 90%;
+    padding: 0;
+    /*margin-top: 20px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*background: rgba(24, 79, 133 , .9);*/
+    /*background: rgba(246, 235, 76,1);*/
+    /*background: rgba(118,147,166,.95);*/
+    background: rgba(0,0,0,.4);
+    /*border-top-left-radius: 20px;
+    border-top-right-radius: 20px;*/
+    position: relative;
+     z-index: 9;
+    
+    
+    
+      overflow: hidden;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+
+}
+
+header .menu-custom a {
+    color:#fff;
+    text-decoration: none;
+    margin-right: 40px;
+    /*font-size: 18px;*/
+    font-size: 1.9em;
+    font-weight: bold;
+
+}
+
+header .menu-custom a:hover{
+    text-decoration: underline;
+}
+
+
+.img-icon {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.logo-custom{
+    height: 100px;
+    width: 130px;
+    
+}
+
+
+
+.objetivo-img {
+     /*margin: 20px;*/
+     width: 30%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+
+
+
+.vision-text {
+    /*background: rgba(255, 33, 25,1);*/
+   /* margin: 20px;*/
+    text-align: center;
+    width: 70%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vision-img {
+     margin: 20px;
+     width: 30%;
+}
+
+
+
+.objetivo-img img {
+    max-width: 100%;
+    
+    
+}
+
+
+.vision-img img {
+    max-width: 100%;
+    
+}
+
+
+.main-custom {
+    /*background: rgba(24, 79, 133 , .9);*/
+    padding: 0;
+    width: 100%;
+    /*height: 420px;*/
+    margin-top: 110px;
+}
+
+.main-custom article .thumb {
+    margin-bottom: 20px;
+   
+}
+
+.main-custom article .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main-custom article h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+    /*font-size: 32px;*/
+    font-size: 1.9em;
+}
+
+.main-custom article p {
+    margin-bottom: 20px;
+    /*font-size: 14px;*/
+    font-size: 1.9em;
+    line-height: 27px;
+}
+
+div .objetivo {
+    display: flex;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 20px;    
+}
+
+div .vision {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+div .mision {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.bground-white-trans {
+    background: rgba(255, 255, 255,.3);
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+aside {
+    width: 30%;
+    background: #537dca;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.list-cont {
+     width: 100% auto;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.servicios-grp-1 {
+    display: flex;
+    align-items: stretch;
+    
+}
+
+aside .ad {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+    background: #4264a2;
+    /*margin-bottom: 20px;*/
+}
+
+.seccion-nosotros {
+    background: rgba(65, 90, 166,.95);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-servicios {
+    background: rgba(242, 92, 5,.95);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.seccion-contacto {
+    background: rgba(191, 124, 99,.95);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.seccion-item {
+    width: 45%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.center-child {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.title-section {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.subsection-title{
+     text-align: center;
+     margin-top: 10px;
+     font-size: 3.9em;
+    
+}
+
+.subsection-content {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.subsection-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.tcw{
+     color: #fff;
+}
+
+
+
+
+footer {
+    margin: 0;
+    background: rgba(179, 182, 183,.95);
+    padding: 20px;
+    width: 100%;
+    color:#fff;
+    display: flex;
+    flex-direction: row; /*Con este comando se mueve un div a un lado de otro*/
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer .redes {
+    color:#fff;
+    margin-left: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+footer .redes a:hover {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 692px){
+    
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    
+    
+ header .logo-custom{
+    height: 70px;
+    width: 100px;
+    }
+    
+    .menu-custom {
+    }
+    
+   /* .main-custom {
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    aside .ad {
+        width: 40%;
+    }*/
+}
+
+
+
+@media screen and (max-width: 933px){
+    body{
+        font-size: 9px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 837px){
+   div .objetivo {
+       flex-direction: column;
+       align-items: center;
+    justify-content: center;
+   /* display: flex;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 20px;  */  
+}
+}
+/*
+@media screen and (max-width: 480px){
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    header .menu-custom {
+        width: 100%;
+        background: rgba(255,255,255,.2);
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    header .menu-custom a {
+        margin: 0 20px;
+    }
+    
+    header .logo-custom {
+        margin-bottom: 20px;
+    }
+    
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    footer .autor {
+        order:2;
+    }
+    
+    footer .redes {
+        order:1;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 344px){
+    aside {
+        display: none;
+    }
+}
+*/
+
