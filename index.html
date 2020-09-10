@@ -12,15 +12,15 @@
     <script src="bootstrap/js/smooth-scroll.polyfills.min.js"></script>
     
    <script>
-       
-       var scroll = new SmoothScroll('.some-selector',{
-		header: '[data-scroll-header]'
-	   });
-       
+             
         var scroll = new SmoothScroll('a[href*="#"]', {
 	    speed: 1000
             
         });
+       
+       var scroll = new SmoothScroll('.some-selector',{
+		header: '[data-scroll-header]'
+	   });
        
        
     </script>
@@ -28,12 +28,12 @@
 </head>
 <body>
       <div class="contenedor " id="main">
-  <header>
+  <header data-scroll-header>
       <div class="logo-custom">
           <img class="img-icon" src="img/logo.png" alt="">
       </div>
          <div>
-          <nav data-scroll-header class="menu-custom">
+          <nav  class="menu-custom">
               <a data-scroll href="#main">Identidad</a>
               <a data-scroll href="#nosotros">Nosotros</a>
               <a data-scroll href="#servicios">Servicios</a>
@@ -112,7 +112,7 @@
                <p class= "subsection-content">Generar confianza y satisfacción en nuestros clientes con nuestra ideología de trabajo y absoluta certeza en la garantía de nuestros productos y servicios.</p>
            </div>
        </div>
-       <div class="vision bground-white-trans">
+       <div class="objetivo bground-white-trans">
            <div class="objetivo-img">
               <div>
                <img src="img/img-objetivo2.jpg" alt="">
@@ -133,8 +133,8 @@
        </div>
        <div class="servicios-grp-1 center-child">
        <div class=" seccion-item center-child bground-white-trans">
-           <div class="subsection-title">
-               <h1>Topografia</h1>
+           <div >
+               <h1 class="subsection-title">Topografia</h1>
            </div>
            <div class="admin-obra-contenido">
               <div class="list-cont">
@@ -155,8 +155,8 @@
        </div>
        
        <div class="seccion-item center-child bground-white-trans">
-           <div class="subsection-title">
-               <h1>Administracion de Obra</h1>
+           <div>
+               <h1  class="subsection-title">Administracion de Obra</h1>
            </div>
            <div class="admin-obra-contenido">
               <div class="list-cont" >
@@ -178,8 +178,8 @@
        
         <div class="servicios-grp-1 center-child">
        <div class=" seccion-item center-child bground-white-trans">
-           <div class="subsection-title">
-               <h1>Calculo Estructural</h1>
+           <div>
+               <h1  class="subsection-title">Calculo Estructural</h1>
            </div >
            <div class="admin-obra-contenido">
               <div class="list-cont">
@@ -195,8 +195,8 @@
        </div>
        
        <div class="seccion-item center-child bground-white-trans">
-           <div class="subsection-title">
-               <h1>Obra</h1>
+           <div>
+               <h1  class="subsection-title">Obra</h1>
            </div>
            <div class="admin-obra-contenido">
               <div class="list-cont">
