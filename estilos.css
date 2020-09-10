@@ -233,7 +233,7 @@ div .objetivo {
     display: flex;
     width: 90%;
     margin-top: 30px;
-    border-radius: 20px;    
+    border-radius: 10px;    
 }
 
 div .vision {
@@ -247,7 +247,7 @@ div .vision {
 div .mision {
     width: 90%;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 
@@ -300,6 +300,7 @@ aside .ad {
     width: 100%;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .seccion-servicios {
     background: rgba(242, 92, 5,.95);
@@ -320,6 +321,7 @@ aside .ad {
     margin: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     
 }
 
