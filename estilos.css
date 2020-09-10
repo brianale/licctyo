@@ -112,7 +112,7 @@ header {
     background: rgba(0,0,0,.4);
     /*border-top-left-radius: 20px;
     border-top-right-radius: 20px;*/
-    position: relative;
+    position: fixed;
      z-index: 9;
     
     
@@ -155,7 +155,7 @@ header .menu-custom a:hover{
 
 .objetivo-img {
      /*margin: 20px;*/
-     width: 30%;
+     width: 300px;
      display: flex;
     align-items: center;
     justify-content: center;
@@ -379,6 +379,7 @@ footer {
     justify-content: space-between;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-bottom: 84px;
 }
 
 footer .redes {
@@ -394,6 +395,37 @@ footer .redes a {
 
 footer .redes a:hover {
     text-decoration: none;
+}
+
+
+
+
+
+@media screen and (max-width: 933px){
+    body{
+        font-size: 9px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 837px){
+   div .objetivo {
+       flex-direction: column;
+       align-items: center;
+    justify-content: center;
+   /* display: flex;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 20px;  */  
+}
+    
+    .vision-text {
+        
+    width: 90%;
+}
+
 }
 
 
@@ -428,28 +460,104 @@ footer .redes a:hover {
     }*/
 }
 
+@media screen and (max-width: 637px){
+    
+    .servicios-grp-1 {
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+    .seccion-item{
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 521px){
+header .menu-custom a {
+    margin-right: 20px;
+    
+
+}
+    
+
+}
 
 
-@media screen and (max-width: 933px){
+@media screen and (max-width: 483px){
     body{
-        font-size: 9px;
+        font-size: 8px;
         
+    }
+    
+    header .logo-custom{
+    height: 50px;
+    width: 80px;
     }
 }
 
 
+@media screen and (max-width: 429px){
+    body{
+        font-size: 6px;
+        
+    }
+    
+    .vision-text {
+   
+    width: 95%;
+    padding: 1px;
+    margin:1px;
+}
+    .subsection-title {
+        margin-top: 5px;
+    }
+}
 
-@media screen and (max-width: 837px){
-   div .objetivo {
-       flex-direction: column;
-       align-items: center;
-    justify-content: center;
-   /* display: flex;
-    width: 90%;
-    margin-top: 30px;
-    border-radius: 20px;  */  
+
+@media screen and (max-width: 409px){
+    /*body{
+        font-size: 6px;
+        
+    }*/
+    
+    .objetivo-img{
+    width: 200px;
+    margin: 10px;
+    padding-top: 2px;
+    }
+    
+     .vision-text {
+   
+    margin-bottom:2px;
 }
+    
 }
+
+
+@media screen and (max-width: 319px){
+    body{
+        font-size: 6px;
+        
+    }
+    
+    header .menu-custom a {
+    margin-right: 7px;
+}
+    
+   
+    
+}
+
+
+
+
+
+
 /*
 @media screen and (max-width: 480px){
     header{
