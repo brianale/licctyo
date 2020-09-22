@@ -34,6 +34,10 @@ body {
     
 }
 
+.bg-red {
+    background: rgba(65, 90, 166,.95);
+}
+
 /*body::before {
     content: '';
     position: absolute;
@@ -68,8 +72,6 @@ body {
 }
 .carousel {
    
-   max-width: 1366px;
-   max-height: 505px;
     
 }
 
@@ -99,6 +101,9 @@ body {
 }
 
 header {
+    
+     position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     width: 90%;
     padding: 0;
     /*margin-top: 20px;*/
@@ -109,18 +114,10 @@ header {
     /*background: rgba(24, 79, 133 , .9);*/
     /*background: rgba(246, 235, 76,1);*/
     /*background: rgba(118,147,166,.95);*/
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.80);
     /*border-top-left-radius: 20px;
     border-top-right-radius: 20px;*/
-    position: fixed;
-     z-index: 9;
-    
-    
-    
-      overflow: hidden;
-      position: fixed; /* Set the navbar to fixed position */
-      top: 0; /* Position the navbar at the top of the page */
-
+    z-index: 9;
 }
 
 header .menu-custom a {
@@ -294,7 +291,7 @@ aside .ad {
 }
 
 .seccion-nosotros {
-    background: rgba(65, 90, 166,.95);
+    background: rgba(65, 90, 166,.97);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -303,14 +300,14 @@ aside .ad {
     padding-bottom: 20px;
 }
 .seccion-servicios {
-    background: rgba(242, 92, 5,.95);
+    background: rgba(242, 92, 5,.97);
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
 .seccion-contacto {
-    background: rgba(191, 124, 99,.95);
+    background: rgba(191, 124, 99,.97);
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -371,7 +368,7 @@ aside .ad {
 
 footer {
     margin: 0;
-    background: rgba(179, 182, 183,.95);
+    background: rgba(179, 182, 183,.99);
     padding: 20px;
     width: 100%;
     color:#fff;
@@ -408,7 +405,10 @@ footer .redes a:hover {
         font-size: 9px;
         
     }
+    
 }
+
+
 
 
 
@@ -598,11 +598,9 @@ header .menu-custom a {
         margin-left: 0;
     }
 }
-
 @media screen and (max-width: 344px){
     aside {
         display: none;
     }
 }
 */
-
